@@ -28,6 +28,10 @@ button {
     font-family: Cambria, Georgia, serif;
 }
 
+ul {
+    list-style: none;
+}
+
 button {
     margin-top: 1rem;
     margin-right: 1rem;
