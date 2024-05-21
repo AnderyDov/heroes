@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 import { MessageService } from '../message.service';
@@ -8,7 +9,7 @@ import { MessageService } from '../message.service';
 @Component({
 	selector: 'app-heroes',
 	standalone: true,
-	imports: [CommonModule, HeroDetailComponent],
+	imports: [CommonModule, HeroDetailComponent, RouterModule],
 	templateUrl: './heroes.component.html',
 	styleUrl: './heroes.component.css',
 })
